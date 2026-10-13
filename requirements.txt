@@ -1,0 +1,30 @@
+# ==============================================================================
+# Document Studio Pro — Python Dependencies
+# ==============================================================================
+
+# Core GUI & Application Framework
+PyQt5>=5.15.9
+
+# PDF Manipulation, Rendering & Layout Engines
+pypdf>=4.0.0
+PyMuPDF>=1.24.0
+pdf2docx>=0.5.8
+
+# Document Processing & Generation
+python-docx>=1.0.0
+docx2pdf>=0.1.8
+reportlab>=4.0.0
+
+# Imaging, Graphics & Barcodes
+Pillow>=10.0.0
+qrcode>=7.4.2
+
+# Windows Automation & Office Integration
+pywin32>=306; platform_system == "Windows"
+
+# --- Optional Enhanced Features (Digital Signatures, OCR, Templates) ---
+# Uncomment to enable digital signature validation and advanced docx templates:
+# pyhanko>=0.20.0
+# pyhanko-certvalidator>=0.24.0
+# docxtpl>=0.16.0
+# pytesseract>=0.3.10
